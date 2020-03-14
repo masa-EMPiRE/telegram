@@ -1,5 +1,6 @@
 class Post < ApplicationRecord
   has_one_attached :image
+  berongs_to :user
   validates :caption, presence: true
   validate :image_check
   
