@@ -51,6 +51,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'bullet'
   gem 'ransack'
+  gem 'rails_admin'
+  gem 'rails_admin-i18n'
+  gem 'devise-bootstrap-views', '~> 1.0'
 end
 
 group :test do
